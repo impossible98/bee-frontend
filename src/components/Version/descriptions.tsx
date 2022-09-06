@@ -11,7 +11,7 @@ function VersionDescription() {
   useEffect(() => {
     axios({
       method: 'post',
-      url: `${BASE_URL}api/version`,
+      url: `${BASE_URL}/api/version`,
       data: {}
     })
       .then(res => {
